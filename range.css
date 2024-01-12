@@ -1,0 +1,10 @@
+/* Optional: Add some styling to the sliders */
+input[type="range"] {
+    width: 200px;
+    margin: 5px;
+    background-color: aliceblue;
+    display: flex;
+    display: inline-block;
+  }
+
+  

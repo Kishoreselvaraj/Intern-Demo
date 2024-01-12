@@ -1,0 +1,40 @@
+.custom-col-md-1 {
+    max-width: 5%; /* You can adjust the percentage as needed */
+  }
+.col-md-1-container {
+    padding: 0;
+  }
+
+  .logo-row,
+  .navigation-row,
+  .icons-row {
+   
+    padding: 10px;
+  }
+
+  .navigation-icons a {
+    color: rgba(54, 53, 53, 0.564);
+    display: block;
+    padding-left: 30px; /* Adjust padding for spacing */
+    padding-right: 30px;
+
+  }
+
+  .navigation-icons a:hover {
+    background-color: #007bff; /* Blue on hover */
+    color: white;
+    border-radius: 8px;
+    border-left: 30px solid #ffffff;
+  }
+
+  .logo-search img {
+    max-height: 50px;
+  }
+
+  .material-icons {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  .bell{
+    margin-top: 10rem !important;
+  }

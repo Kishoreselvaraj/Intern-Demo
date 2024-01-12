@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Intern Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./new.css">
+    <link rel="stylesheet" href="./range.css">
+    <link rel="stylesheet" href="./nav.css">
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1" id="section1">
+                <div class="container-fluid nav">
+                    <div class="row">
+                      <!-- Logo Row -->
+                      <div class="col-md-1 logo-row pt-4 pl-4">
+                        <img src="./Photos/Logo.png" alt="Logo" style="width: 50px;">
+                      </div>
+                    </div>
+                  
+                    <div class="row">
+                      <!-- Search Icon Row -->
+                      <div class="col-md-1 icons-row navigation-icons">
+                        <a href="#" class="nav-link"><i class="material-icons pr-5">search</i></a></div>
+                    </div>
+                  
+                    <div class="row mt-5">
+                      <!-- Navigation Icons Row -->
+                      <div class="col-md-1 icons-row navigation-icons">
+                        <a href="#" class="nav-link"><i class="material-icons">home</i></a>
+                        <a href="#" class="nav-link"><i class="fas fa-newspaper"></i></a>
+                        <a href="#" class="nav-link"><i class="material-icons">list</i></a>
+                        <a href="#" class="nav-link"><i class="material-icons">person</i></a>
+                      </div>
+                    </div>
+                  
+                    <div class="row mt-5 bell">
+                      <!-- Bell and Logout Icons Row -->
+                      <div class="col-md-1 col-md-1-container icons-row navigation-icons">
+                        <a href="#" class="nav-link"><i class="material-icons">notifications</i></a>
+                        <a href="#" class="nav-link"><i class="material-icons">exit_to_app</i></a>
+                      </div>
+                    </div>
+                </div>
+                  
+            </div>
+            <div class="col-md-2" id="section2">
+                <div class="m-3 Profile pt-3">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <img class="m-1 pb-2 photo" src="./Photos/profile photo.png" alt="Profile-photo">
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <p class="profile_name"><b>Hi Mike,</b><br><p class="welcome">Welcome back</p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="today m-3">
+                    <div class="display-6 pb-3" style="font-family: 'Inika';"><b>Today</b></div>
+                    <div class="display-4 doller">$19,892</div>
+                    <div class="display-6 Account pb-3" style="font-family: 'Inika';">Account balance</div>
+                    <div class="display-6 doller-year">$4,000</div>
+                    <div class="display-6 Account pb-3" style="font-family: 'Inika';">year-to date-contribution</div>
+                    <div class="display-6 doller-year">$1,892</div>
+                    <div class="display-6 Account pb-3" style="font-family: 'Inika';">year-to date-contribution</div>
+                </div>
+                <div class="dropdown pb-2">
+                    <button class="dropdown-button btn-primary btn pl-3 pr-3 m-3 mb-4">  I want to &#9662; </button>
+                    <div class="dropdown-content">
+                        <a href="#">Option 1</a>
+                        <a href="#">Option 2</a>
+                        <a href="#">Option 3</a>
+                    </div>
+                </div>
+                <div class="m-3">
+                    <div class="display-6 Recent pb-3">Recent Transaction</div>
+                    <div><p class="date">2020-08-07</p></div>
+                    <div ><p class="resent1">Withdrawal Transfer to Bank-XXX11</p></div><hr style="width:80%;float:left;margin-top: 0rem; margin-bottom: 0.5rem;">
+                    <div><p class="date">2020-08-07</p></div>
+                    <div ><p class="resent2">Withdrawal Transfer to Bank-XXX11</p></div><hr style="width:80% ;float:left;margin-top: 0rem; margin-bottom: 0.5rem;">
+                    <div><p class="date">2020-08-07</p></div>
+                    <div ><p class="resent3">Withdrawal Transfer to Bank-XXX11</p></div><hr style="width:80%; float:left;margin-top: 0rem; margin-bottom: 0.5rem;">
+
+                </div>
+            </div>
+            <!-- section 3 -->
+            <div class="col-md-6" id="section3">
+                <div class="row" id="row1">
+                    <div class="col-md-12 m-3">
+                        <p class="retirement display-6 "> Retirement Income</p>
+                        <p class="starting">Starting Year 2056</p>
+                    </div>
+                    <div class="row container-fluid">
+                        <div class="col-md-4 goal" >
+                            <p>$300,000 <p class="goal-option"> My Goal</p></p><hr class="line">
+                        </div>
+                        <div class="col-md-4 goal" >
+                            <p>59% <p class="goal-option"> My Achieved</p></p><hr class="line">
+                        </div>
+                        <div class="col-md-4 goal" >
+                            <p>$300<p class="goal-option">Est, Monthhly Income</p></p><hr class="line">
+                        </div>
+                    </div class="row">
+                        <div class="graph col-md-12"><p class="m-1 pt-3 display-6">Contributions Overtime</p></div>
+                    </div class="row">
+                    <div class="col-md-12 container-fluid">
+                        <div><canvas id="myBarChart" width="360" height="150"></canvas></div>
+                    </div>
+                    <!-- row2 -->
+                <div class="row" id="row2">
+                    <div>
+                        <div class="col-md-12 graph"><p class="m-1 pt-3 display-6">How do I compare to my peers?</p>
+                        <p class="goal-option">These number represent current goal achievement</p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div ><p class="resent2 pt-3">Age: Under 30 </p></div><hr >
+                            <div ><p class="resent2 ">Salary: K 20-K 30</p></div><hr >
+                            <div ><p class="resent2 ">Gender: Male</p></div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="donut-container">
+                                            <canvas id="donutChart1" class="donut-chart"></canvas>
+                                            <div class="donut-percentage">78%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="donut-container">
+                                            <canvas id="donutChart2" class="donut-chart" width="120" height="150"></canvas>
+                                            <div class="donut-percentage">95%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="donut-container">
+                                            <canvas id="donutChart3" class="donut-chart" width="120" height="150"></canvas>
+                                            <div class="donut-percentage">59%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            <!-- Section 4 -->
+            <div class="col-md-3 pr-5 pl-5" id="section4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>
+                            <p class="m-1 pt-3 display-6 graph">Retirement Strategy</p>
+                        </div>
+                        <div class="slider-container container m-3 pt-3">
+                            <label for="range2">Employee Contribution</label>
+                            <input type="range" id="range2" min="0" max="100" value="50">
+                            <span class="value2">50%</span>
+                        </div>
+                        <div class="slider-container container m-3">
+                            <label for="range1">Retirement Age</label>
+                            <input type="range" id="range1" min="0" max="100" value="50">
+                            <span class="value1">50</span>
+                            <hr>
+                        </div>
+                        <div>
+                            <div class="container m-3">
+                                <div class="row">
+                                  <div class="col-md-7">
+                                    <p class="resent2 pt-3">Employer Contribution</p>
+                                  </div>
+                                  <div class="col-md-5">
+                                    <p class="pt-3">8.4%</p>
+                                  </div>
+                                </div>
+                            
+                                <div class="row">
+                                  <div class="col-md-7">
+                                    <p class="resent2 pt-3">Interest Rate</p>
+                                  </div>
+                                  <div class="col-md-5">
+                                    <p class="pt-3">5%</p>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                            
+                    </div class="container learn">
+                        <div class="container m-4">
+                            <div class="update">
+                            <button class="btn btn-primary pr-5 pl-5">Update</button></div>
+                        </div>
+                        <div class="m-4 pl-5" style="text-align: center;">
+                            <a href="#" style="color: blue;">View Help Docs ></a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="container-fluid m-3 " id="section5">
+                            <div class="vertical-line"></div>
+                            <div><p>Are you considering a <br> <b>Housing Advance?</b>
+                            </p></div>
+                            <p class="goal-option ">Limited time reduced Interest</p>
+                            <div >
+                                <a href="#" style="color: blue;">Learn More ></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+                
+            
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./graph.js"></script>
+    <script src="./Donut_graph.js"></script>
+    <script src="./range.js"></script>
+    <script>
+        function checkWindowSize() {
+          if (window.innerWidth > 450) {
+            // Redirect to desktop HTML
+            window.location.href = './index.html';
+          }
+        }
+      
+        // Check window size on resize
+        window.addEventListener('resize', checkWindowSize);
+      
+        // Initial check on page load
+        window.onload = checkWindowSize;
+    </script>
+    <script>
+        function checkWindowSize() {
+          if (window.innerWidth <= 450) {
+            // Redirect to mobile HTML
+            window.location.href = './app.html';
+          }
+        }
+      
+        // Check window size on resize
+        window.addEventListener('resize', checkWindowSize);
+      
+        // Initial check on page load
+        window.onload = checkWindowSize;
+    </script>
+      
+      
+</body>
+</html>
